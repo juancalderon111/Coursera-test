@@ -4,147 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Assigment 2</title>
+<link rel="stylesheet" href="Assignment2.css">
 <style>
-
-/********** Base styles **********/
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-div#container
-{
-  size: 100%;
-}
-
-h1 {
-  margin-bottom: 1px;
-  text-align: center;
-  padding: 20px;
-}
-p{
-
-  
-  border: 1px solid black;
-  margin-bottom: 20;
-  padding: 0;
-  top: 0px;
-  right: 0px;
-  position: absolute;
-  text-align: right;
-
-}
-
-.row{
-  width: 100%;
-}
-
-/* Simple Responsive Framework. */
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1 {
-    float: left;
-  }
-    #div1{
-    width: 33.33%;
-    background-color: gray;
-  padding: 20px;
-  border: 50px solid white;
-  position: relative;
-     }
-
-   #div2{
-      width: 33.33%;
-    background-color: gray;
-    padding: 20px;
-    border: 50px solid white;
-    position: relative;
-    
-    }
-    #div3{
-      width: 33.33%;
-    background-color: gray;
-  padding: 20px;
-  border: 50px solid white;
-  position: relative;
-
-    }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1 {
-    float: left;
-  }
-
-#div1{
-width: 50%;
-background-color: gray;
-  padding: 20px;
-  border: 50px solid white;
-  position: relative;
-  
-  
-}
-
-#div2{
-  width: 50%;
-  background-color: gray;
-  padding: 20px;
-  border: 50px solid white;
-  position: relative;
-  
-}
-
-#div3{
-  width: 100%;
-  background-color: gray;
-  padding: 20px;
-  border: 50px solid white;
-  position: relative;
-  
-
-  }
- }
-
-
-    /********** Small device Only **********/
-@media (max-width: 767px) {
-  .col-sw-1 {
-    float: left;
-}
-    section#div1{
-  width: 100%;
-  background-color: gray;
-  padding: 20px;
-  border: 50px solid white;
-  position: relative;
-  
-  
-}
-
-section#div2{
-  width: 100%;
-  background-color: gray;
-  padding: 20px;
-  border: 50px solid white;
-  position: relative;
-  
-  
-}
-section#div3{
-  width: 100%;
-  background-color: gray;
-  padding: 20px;
-  border: 50px solid white;
-  position: relative;
-  
-  
-}
-}
-
 
 </style>
 </head>
@@ -153,12 +14,12 @@ section#div3{
 
 
 <div class="row">
-  <section id="div1" class="col-lg-1 col-md-1 col-sw-1"> <p style="background-color:green" class="col-lg-1 col-md-1 col-sw-1"> Number#1 </p> Gibson sells guitars under a variety of brand names[7] and builds one of the world's best-known guitars, the Gibson Les Paul. Gibson was at the forefront of innovation in acoustic guitars, especially in the big band era of the 1930s; the Gibson Super 400 was widely imitated. In 1952, Gibson introduced its first solid-body electric guitar, the Les Paul, which became its most popular guitar to date— designed by a team led by Ted McCarty. 
+  <section id="div1" class="col-lg-1 col-md-1 col-sw-1"> <p id="color1" class="col-lg-1 col-md-1 col-sw-1"> Number#1 </p> Gibson sells guitars under a variety of brand names[7] and builds one of the world's best-known guitars, the Gibson Les Paul. Gibson was at the forefront of innovation in acoustic guitars, especially in the big band era of the 1930s; the Gibson Super 400 was widely imitated. In 1952, Gibson introduced its first solid-body electric guitar, the Les Paul, which became its most popular guitar to date— designed by a team led by Ted McCarty. 
   </section>
   <section id="div2" class="col-lg-1 col-md-1 col-sw-1">Gibson sells guitars under a variety of brand names[7] and builds one of the world's best-known guitars, the Gibson Les Paul. Gibson was at the forefront of innovation in acoustic guitars, especially in the big band era of the 1930s; the Gibson Super 400 was widely imitated. In 1952, Gibson introduced its first solid-body electric guitar, the Les Paul, which became its most popular guitar to date— designed by a team led by Ted McCarty.
-  <p style="background-color:yellow" class="col-lg-1 col-md-1 col-sw-1"> Number#2 </p></section>
+  <p id="color2" class="col-lg-1 col-md-1 col-sw-1"> Number#2 </p></section>
   <section id="div3" class="col-lg-1 col-md-1 col-sw-1">Gibson sells guitars under a variety of brand names[7] and builds one of the world's best-known guitars, the Gibson Les Paul. Gibson was at the forefront of innovation in acoustic guitars, especially in the big band era of the 1930s; the Gibson Super 400 was widely imitated. In 1952, Gibson introduced its first solid-body electric guitar, the Les Paul, which became its most popular guitar to date— designed by a team led by Ted McCarty.
-  <p style="background-color:orange" class="col-lg-1 col-md-1 col-sw-1"> Number#3 </p></section>
+  <p id="color3" class="col-lg-1 col-md-1 col-sw-1"> Number#3 </p></section>
 </div>
 
 </body>
