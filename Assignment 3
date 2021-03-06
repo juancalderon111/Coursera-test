@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img">Food, LLC </div>
+          </a> **/ -->
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>FOOD, LLC</h1></a>
+            <!--<p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p>-->
+          </div>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+          
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html"><span class="visible-xs"> Chicken </span>
+            </li>
+            <li>
+              <a href="#"><span class="visible-xs"> Beef </span>
+            </li>
+            <li>
+              <a href="#"><span class="visible-xs"> Sushi </span>
+              </a>  
+            </li>
+           </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="margen" class="text-center"> Our Menu</div>
+
+  <div class="container">
+    
+
+      
+    <div id="home-tiles" class="row">
+      <div class="col-xs-12">
+        <div id="menu-tile"> <section id="color"> History also includes the academic discipline which uses narrative to describe, examine, question, and analyze a sequence of past events, and investigate the patterns of cause and effect that are related to them. Historians seek to understand and represent the past through narratives. They often debate which narrative best explains an event, as well as the significance of different causes and effects. Historians also debate the nature of history and its usefulness by discussing the study of the discipline as an end in itself and as a way of providing "perspective" on the problems of the present. Stories common to a particular culture, but not supported by external sources (such as the tales surrounding King Arthur), are usually classified as cultural heritage or legends. History differs from myth in that it is supported by evidence. However, ancient influences have helped spawn variant interpretations of the nature of history which have evolved over the centuries and continue to change today. The modern study of history is wide-ranging, and includes the study of specific regions and the study of certain topical or thematic elements of historical investigation. History is often taught as part of primary and secondary education, and the academic study of history is a major discipline in university studies. Herodotus, a 5th-century BC Greek historian is often considered (within the Western tradition) to be the "father of history", or, the "father of lies". Along with his contemporary Thucydides, he helped form the foundations for the modern study of human history. Their works continue to be read today, and the gap between the culture-focused Herodotus and the military-focused Thucydides remains a point of contention or approach in modern historical writing. In East Asia, a state chronicle, the Spring and Autumn Annals, was known to be compiled from as early as 722 BC although only 2nd-century BC texts have survived</section>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+ <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
