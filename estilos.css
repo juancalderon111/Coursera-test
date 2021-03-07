@@ -92,7 +92,7 @@ body {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   /* Header */
   
 #color{
@@ -111,21 +111,7 @@ body {
 
 
 
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
 
-#color{
-    
-  margin: 0 auto 15px;
-    background-color: gray;
-    margin-bottom: 30px;
-  
-}
-#margen{
-  padding: 50px;
-}
-
-}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -146,17 +132,5 @@ body {
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  /* Header */
-  #color{
-  width: 80%;
-  margin: 0 auto 15px;
-  background-color: gray;
-  margin-bottom: 30px;
 
-
-}
-#margen{
-  padding: 50px;
-}
 }
